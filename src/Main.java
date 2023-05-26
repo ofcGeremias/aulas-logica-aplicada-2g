@@ -1,4 +1,5 @@
 public class Main {
+
     public static void main(String[] args) {
 
         Pessoa adao = new Pessoa();
@@ -11,11 +12,11 @@ public class Main {
         adao.falar();
         Pessoa rainha;
         rainha = new Pessoa();
-        rainha.nome="tina"
+        rainha.nome="tina";
         rainha.sobrenome="tunner";
         rainha.falar();
         rainha.falar(volume"alto");
-        System.out.println(rainha.falar(volume"alto",tom"grave"));
+        System.out.println(rainha.falar(volume"alto", tom "grave"));
 
     }
 }
