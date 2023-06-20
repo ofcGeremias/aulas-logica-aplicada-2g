@@ -27,13 +27,22 @@ public class Main {
         rainha.falar("alto");
         System.out.println(rainha.falar("alto", "grave"));
 
-        Animal cao = new Animal();
+        animal cao = new animal();
         cao.nome = "Pluto";
         cao.comer();
 
         rainha.comer();
 
+        int numero = (int) Math.ceil((Math.random() * 60);
+        System.out.println(numero);
 
+        Produto petisco =new Produto()
+        Produto racao =new Produto(1)
+        Produto remedio =new Produto(2, "vermefuga")
+        Produto brinquedo =new Produto("Bolonha")
+
+        petisco.nome = "biscoito"
+    petisco.setNome("biscoito")
 
 
     }
